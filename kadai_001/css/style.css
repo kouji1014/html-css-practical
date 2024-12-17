@@ -4,6 +4,7 @@ body{
     font-family: "Noto Sans JP", sans-serif;
     color: #000;
     background-color: #fff;
+    margin: 0;
 }
 
 nav{
@@ -34,6 +35,10 @@ a{
     width: 100%;
 }
 
+.about,.works{
+    margin: 0 10px;
+}
+
 .about .image{
     text-align: center;
 }
@@ -58,6 +63,10 @@ h1{
 
 .works img{
     width: 100%;
+}
+
+.works p{
+    text-align: center;
 }
 
 footer p{
@@ -92,6 +101,10 @@ footer p{
         max-width: 768px;
         display: flex;
         margin: 0 auto;
+    }
+
+    .works p{
+        text-align: left;
     }
 
     .works1,.works2,.works3{
